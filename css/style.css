@@ -1,0 +1,102 @@
+body{
+    background-color: burlywood;
+}
+
+/*dragable css*/
+.outerDiv{
+    width: 500px; 
+    height: 500px; 
+    border: 1px solid red;
+}
+    .innerdiv{
+        height: 100px; 
+        width: 100px; 
+        background: blue;
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+    float: left;
+}
+    .outerDiv{display: flex; 
+        align-items: center; 
+        justify-content: center;
+        width: 100%;
+}
+
+
+
+/* drag*/
+.framework{width: 30%; float: left; border-right: 1px solid; height: 400px;}
+.framework li{margin: 5px; background: red; color: yellow;padding: 5px;}
+.custom{background-color: blue; color: crimson;}
+
+
+
+/* navigation */
+.navigation{
+        height: 250px;
+        width: 100%;
+        background: blue;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .navigation ul{margin: 0; padding: 0; list-style: none}
+    .navigation ul li{display: inline-block; }
+    .navigation li a{text-decoration: none; color: brown; padding: 20px; border: 1px solid yellow;}
+   .ui-selected {
+  background: yellow;
+  color: blue;
+  padding: 20px 0px;
+  border: 1px solid blue;
+}
+
+
+
+/*Shortable*/
+.shortnavigation{
+        height: 560px;
+        width: 100%;
+        background: blue;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .shortnavigation ul{margin: 0; padding: 0; list-style: none}
+    .shortnavigation ul li{display: block; margin: 50px 0px; width: 300px;}
+    .shortnavigation li a{
+        text-decoration: none; 
+        color: brown; 
+        padding: 20px; 
+        border: 1px solid yellow; 
+        margin: 20px 0px; 
+        height: 30px; 
+    }
+   .ui-selected {
+  background: yellow;
+  color: blue;
+  padding: 20px 0px;
+  border: 1px solid blue;
+}
+.widgetPalce{background-color: forestgreen; color: antiquewhite}
+
+
+
+
+
+
+
+/*Date pickker*/
+.mydate{
+        height: 200px;
+        width: 100%;
+        background-color: aqua;
+        text-align: center;
+/*
+        display: flex;
+        align-items: center;
+        justify-content: center;
+*/
+    }
